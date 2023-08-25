@@ -12,6 +12,7 @@ class CalculatorScreen extends StatefulWidget {
 class _CalculatorScreenState extends State<CalculatorScreen> {
   String inputs = '';
   String answer = '';
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
